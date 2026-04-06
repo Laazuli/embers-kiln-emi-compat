@@ -50,6 +50,8 @@ dependencies {
 
     modCompileOnly "dev.emi:emi-fabric:${project.emi_version}:api"
     modLocalRuntime "dev.emi:emi-fabric:${project.emi_version}"
+
+    modLocalRuntime "maven.modrinth:modmenu:${project.modmenu_version}"
 }
 
 processResources {

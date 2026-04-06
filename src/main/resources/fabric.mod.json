@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "embers_kiln_emi_compat",
   "version": "${version}",
-  "name": "Embers Kiln + EMI",
+  "name": "Ember's Kiln + EMI",
   "description": "EMI integration for Ember's Kiln",
   "authors": ["Laazuli"],
   "contact": {
@@ -13,9 +13,6 @@
   "icon": "assets/embers_kiln_emi_compat/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "me.laazuli.embers_kiln_emi_compat.EmbersKilnEmiCompat"
-    ],
     "emi": [
       "me.laazuli.embers_kiln_emi_compat.emi.EmbersKilnEmiPlugin"
     ]
